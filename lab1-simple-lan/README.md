@@ -14,7 +14,7 @@
 PC0: 192.168.1.1
 PC1: 192.168.1.2 
 
-![IP Configuration](screenshots/ip-config.png)
+![IP Configuration](screenshots/ip-conf.png)
 
 ---
 
