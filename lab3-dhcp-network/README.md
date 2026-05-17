@@ -17,7 +17,7 @@ Configure a router as a DHCP server to automatically assign IP addresses to devi
 
 ## Network Topology
 
-![Topology](lab3-dhcp-network/screenshots/topology.png)
+![Topology](screenshots/topology.png)
 
 
 *Figure 1: Network topology with router-based DHCP configuration*
@@ -26,7 +26,7 @@ Configure a router as a DHCP server to automatically assign IP addresses to devi
 
 ## Router DHCP Configuration
 
-![Router DHCP](lab3-dhcp-network/screenshots/router-config.png)
+![Router Config](screenshots/router-config.png)
 
 
 *Figure 2: DHCP pools configured on the router for both LAN networks*
@@ -35,7 +35,7 @@ Configure a router as a DHCP server to automatically assign IP addresses to devi
 
 ## PC0 DHCP Configuration
 
-![PC0 DHCP](lab3-dhcp-network/screenshots/pc0-ip.png)
+![PC0](screenshots/pc0-ip.png)
 
 
 *Figure 3: PC0 automatically receiving IP configuration from DHCP server*
@@ -44,7 +44,7 @@ Configure a router as a DHCP server to automatically assign IP addresses to devi
 
 ## PC1 DHCP Configuration
 
-![PC1 DHCP](lab3-dhcp-network/screenshots/pc1-ip.png)
+![PC1](screenshots/pc1-ip.png)
 
 
 *Figure 4: PC1 automatically receiving IP configuration from DHCP server*
@@ -53,7 +53,7 @@ Configure a router as a DHCP server to automatically assign IP addresses to devi
 
 ## Connectivity Test
 
-![Ping Test](lab3-dhcp-network/screenshots/ping-test.png)
+![Ping](screenshots/ping-test.png)
 
 
 *Figure 5: Successful ICMP communication between hosts in different networks*
