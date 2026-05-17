@@ -12,7 +12,7 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 ---
 
 ## VLAN Configuration
-![VLAN](screenshots/vlan-brief.png)
+![VLAN](screenshots/vlan-config.png)
 
 | VLAN | Name   | Network         |
 |------|--------|----------------|
@@ -43,7 +43,7 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 
 ##  Configuration Summary
 ## Switch Config
-![Switch Config](screenshots/vlan-config.png)
+![Switch Config](screenshots/config-switch.png)
 
 ### Switch
 - VLAN creation (10, 20, 30)
