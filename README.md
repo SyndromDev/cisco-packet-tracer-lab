@@ -22,7 +22,7 @@ PC1: 192.168.1.2
 
 ## Проверка (тест Ping)
 
-![Результат Ping](lab1-simple-lan/screenshots/ping .png)
+![Результат Ping](lab1-simple-lan/screenshots/ping.png)
 
 ---
 
