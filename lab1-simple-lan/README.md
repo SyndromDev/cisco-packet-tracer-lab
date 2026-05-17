@@ -6,7 +6,7 @@
 ---
 
 ## Топология сети
-![Topology](lab1-simple-lan/screenshots/topology.png)
+![Topology](screenshots/topology.png)
 
 ---
 
@@ -14,14 +14,14 @@
 PC0: 192.168.1.1
 PC1: 192.168.1.2 
 
-![IP Configuration](lab1-simple-lan/screenshots/ip-config.png)
+![IP Configuration](screenshots/ip-config.png)
 
 ---
 
 ## Проверка подключения
 Пинг между хостами:
 
-![Ping Result](lab1-simple-lan/screenshots/ping.png)
+![Ping Result](screenshots/ping.png)
 
 ---
 
