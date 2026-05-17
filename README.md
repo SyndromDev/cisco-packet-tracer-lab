@@ -37,3 +37,41 @@ The LAN network is fully operational:
 - Both PCs are in the same subnet (192.168.1.0/24)
 - ICMP ping is successful
 - Switch correctly forwards traffic between hosts
+
+
+## Лабораторная работа 2: Маршрутизатор и межсетевое взаимодействие
+
+### Цель
+Настроить маршрутизацию между двумя различными локальными сетями с помощью маршрутизатора.
+
+---
+
+## Сетевая топология
+![Топология](screenshots/topology2.png)
+
+---
+
+## Конфигурация маршрутизатора
+![Конфигурация маршрутизатора](screenshots/routerconfig.png)
+
+---
+
+## Конфигурация PC0
+![IP-адрес PC0](screenshots/ipconfigpc0.png)
+
+---
+
+## Конфигурация PC1
+![IP-адрес PC1](screenshots/ipconfigpc1.png)
+
+---
+
+## Проверка подключения
+![Результат пинга](screenshots/ping.png)
+
+---
+
+## Результат
+- Настроены две отдельные локальные сети
+- Маршрутизатор успешно выполняет межсетевую маршрутизацию
+- ICMP-связь между подсетями работает
