@@ -1,32 +1,31 @@
-## Лабораторная работа 1: Базовая локальная сеть (Packet Tracer)
+## Lab 1: Basic LAN Network (Packet Tracer)
 
-### Цель
-Создать простую локальную сеть и проверить соединение между двумя хостами.
-
----
-
-## Сетевая топология
-
-![Топология](lab1-simple-lan/screenshots/topology.png)
+### Objective
+Build a simple LAN network and verify connectivity between two PCs.
 
 ---
 
-## Конфигурация IP
-
-PC0: 192.168.1.1 
-PC1: 192.168.1.2 
-
-![Конфигурация IP](lab1-simple-lan/screenshots/ip-config.png)
+## Network Topology
+![Topology](lab1-simple-lan/screenshots/topology.png)
 
 ---
 
-## Проверка (тест Ping)
+## IP Configuration
+PC0: 192.168.1.1  
+PC1: 192.168.1.2  
 
-![Результат Ping](lab1-simple-lan/screenshots/ping.png)
+![IP Configuration](lab1-simple-lan/screenshots/ip-config.png)
 
 ---
 
-## Продемонстрированные навыки
-- Базовая IP-адресация
-- Настройка локальной сети в Cisco Packet Tracer
-- Проверка соединения с использованием ICMP (ping)
+## Connectivity Test
+Ping between hosts:
+
+![Ping Result](lab1-simple-lan/screenshots/ping.png)
+
+---
+
+## Result
+- Devices are in the same subnet (192.168.1.0/24)
+- Successful ICMP communication between hosts
+- Switch forwards frames correctly at Layer 2
