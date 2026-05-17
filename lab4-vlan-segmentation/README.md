@@ -1,17 +1,17 @@
 # Lab 04 - VLAN Segmentation & Inter-VLAN Routing
 
-## 🎯 Objective
+##  Objective
 This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on-a-stick topology in Cisco Packet Tracer.
 
 ---
 
-## 🏗️ Network Topology
+##  Network Topology
 
 ![Topology](./screenshots/topology.png)
 
 ---
 
-## 🧱 VLAN Configuration
+##  VLAN Configuration
 
 | VLAN | Name   | Network         |
 |------|--------|----------------|
@@ -21,7 +21,7 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 
 ---
 
-## 🌐 IP Addressing Plan
+##  IP Addressing Plan
 
 ### HR VLAN
 - 192.168.10.11
@@ -40,7 +40,7 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 
 ---
 
-## ⚙️ Configuration Summary
+##  Configuration Summary
 
 ### Switch
 - VLAN creation (10, 20, 30)
@@ -56,27 +56,27 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 
 ---
 
-## 🔗 Trunk Verification
+##  Trunk Verification
 
 ![Trunk](./screenshots/trunk.png)
 
 ---
 
-## 🧪 Testing Results
+##  Testing Results
 
-### ✔ Intra-VLAN communication
+###  Intra-VLAN communication
 - HR ↔ HR ✔
 - IT ↔ IT ✔
 - GUEST ↔ GUEST ✔
 
-### ✔ Inter-VLAN communication
+###  Inter-VLAN communication
 - HR ↔ IT ✔
 - IT ↔ GUEST ✔
 - HR ↔ GUEST ✔
 
 ---
 
-## 📌 Key Learnings
+##  Key Learnings
 - VLAN segmentation
 - 802.1Q trunking
 - Inter-VLAN routing (router-on-a-stick)
@@ -84,7 +84,7 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 
 ---
 
-## 📁 Files Included
+##  Files Included
 - Packet Tracer project (.pkt)
 - Switch & Router configurations
 - Screenshots of topology and tests
