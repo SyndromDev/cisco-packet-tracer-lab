@@ -7,11 +7,12 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 
 ##  Network Topology
 
-![Topology](./screenshots/topology.png)
+![Topology](screenshots/topology.png)
 
 ---
 
-##  VLAN Configuration
+## VLAN Configuration
+![VLAN](screenshots/vlan-brief.png)
 
 | VLAN | Name   | Network         |
 |------|--------|----------------|
@@ -41,6 +42,8 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 ---
 
 ##  Configuration Summary
+## Switch Config
+![Switch Config](screenshots/vlan-config.png)
 
 ### Switch
 - VLAN creation (10, 20, 30)
@@ -58,21 +61,18 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 
 ##  Trunk Verification
 
-![Trunk](./screenshots/trunk.png)
+![Trunk](screenshots/trunk.png)
 
 ---
 
 ##  Testing Results
+## Testing
 
-###  Intra-VLAN communication
-- HR ↔ HR ✔
-- IT ↔ IT ✔
-- GUEST ↔ GUEST ✔
+### HR ↔ IT
+![Ping 1](screenshots/ping1.png)
 
-###  Inter-VLAN communication
-- HR ↔ IT ✔
-- IT ↔ GUEST ✔
-- HR ↔ GUEST ✔
+### GUEST tests
+![Ping 2](screenshots/ping2.png)
 
 ---
 
