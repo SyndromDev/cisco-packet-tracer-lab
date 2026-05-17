@@ -17,7 +17,7 @@ Configure a router as a DHCP server to automatically assign IP addresses to devi
 
 ## Network Topology
 
-![Topology](lab3-dhcp-network/screenshots/topology3.png)
+![Topology](lab3-dhcp-network/screenshots/topology.png)
 
 *Figure 1: Network topology with router-based DHCP configuration*
 
