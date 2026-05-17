@@ -29,3 +29,11 @@ Ping between hosts:
 - Devices are in the same subnet (192.168.1.0/24)
 - Successful ICMP communication between hosts
 - Switch forwards frames correctly at Layer 2
+
+
+## Result
+
+The LAN network is fully operational:
+- Both PCs are in the same subnet (192.168.1.0/24)
+- ICMP ping is successful
+- Switch correctly forwards traffic between hosts
