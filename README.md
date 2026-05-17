@@ -1,88 +1,71 @@
-## Лабораторная работа 1: Базовая локальная сеть (Packet Tracer)
+# Cisco Packet Tracer Labs
 
-### Цель
-Создать простую локальную сеть и проверить связь между двумя ПК.
+This repository contains networking labs created in Cisco Packet Tracer to practice fundamental networking concepts and Cisco IOS configuration.
 
----
-
-## Топология сети
-![Topology](lab1-simple-lan/screenshots/topology.png)
-
----
-
-## Настройка IP-адресов
-PC0: 192.168.1.1
-PC1: 192.168.1.2 
-
-![IP Configuration](lab1-simple-lan/screenshots/ip-config.png)
+The labs are focused on:
+- LAN configuration
+- Routing
+- DHCP
+- Network troubleshooting
+- IPv4 addressing
+- Cisco CLI practice
 
 ---
 
-## Проверка подключения
-Пинг между хостами:
+# Labs
 
-![Ping Result](lab1-simple-lan/screenshots/ping.png)
+##  Lab 1 - Simple LAN Network
+Basic LAN configuration using:
+- 2 PCs
+- 1 Switch
 
----
+### Skills:
+- IPv4 addressing
+- Basic switch connectivity
+- ICMP testing
 
-## Результат
-- Устройства находятся в одной подсети (192.168.1.0/24)
-- Успешная ICMP-связь между хостами
-- Коммутатор корректно пересылает кадры на уровне 2
-
-## Результат
-
-Локальная сеть полностью работоспособна:
-- Оба ПК находятся в одной подсети (192.168.1.0/24)
-- ICMP-пинг пройден успешно
-- Коммутатор корректно пересылает трафик между хостами
-
-
-## Лабораторная работа 2: Маршрутизатор и межсетевое взаимодействие
-
-### Цель
-Настроить маршрутизацию между двумя различными локальными сетями с помощью маршрутизатора.
+ Folder: `lab1-simple-lan`
 
 ---
 
-## Сетевая топология
-![Топология](lab1-simple-lan/screenshots/topology2.png)
+##  Lab 2 - Inter-Network Routing
+Configuration of routing between two different LAN networks using a router.
 
-*Рисунок 1: Сетевая топология с двумя локальными сетями, соединенными через маршрутизатор*
+### Skills:
+- Router configuration
+- Inter-network communication
+- Static IP addressing
+- Gateway configuration
+- Network troubleshooting
+
+ Folder: `lab2-router-network`
+
 ---
 
-## Конфигурация маршрутизатора
-![Конфигурация маршрутизатора](lab1-simple-lan/screenshots/routerconfig.png)
+##  Lab 3 - DHCP Network
+Router configured as a DHCP server for automatic IP address assignment.
 
-*Рисунок 2: Конфигурация интерфейса маршрутизатора с назначенными IP-адресами для обеих сетей*
+### Skills:
+- DHCP configuration
+- Automatic IP assignment
+- Router-based DHCP pools
+- Inter-network routing
+
+ Folder: `lab3-dhcp-network`
+
 ---
 
-## Конфигурация PC0
-![IP-адрес PC0](lab1-simple-lan/screenshots/ip-configpc0.png)
+# Technologies Used
 
-*Рисунок 3: IP-конфигурация PC0 в сети 192.168.1.0/24*
+- Cisco Packet Tracer
+- Cisco IOS CLI
+- IPv4
+- DHCP
+- ICMP
+- Switching & Routing
+
 ---
 
-## Конфигурация PC1
-![IP-адрес PC1](lab1-simple-lan/screenshots/ip-configpc1.png)
+# Purpose
 
-*Рисунок 4: IP-конфигурация ПК1 в сети 192.168.2.0/24*
----
-
-## Проверка подключения
-![Результат пинга](lab1-simple-lan/screenshots/ping2.png)
-
-*Рисунок 5: Успешный ICMP-пинг между PC0 и PC1 в разных сетях*
----
-
-## Результат
-- Настроены две отдельные локальные сети
-- Маршрутизатор успешно выполняет межсетевую маршрутизацию
-- ICMP-связь между подсетями работает
-
-## Продемонстрированные навыки
-- Базовая настройка локальной сети
-- IP-адресация (IPv4)
-- Основы статической маршрутизации
-- Моделирование в Cisco Packet Tracer
-- Устранение неполадок в сети (ping, ARP)
+This repository was created to improve practical networking skills and build a hands-on networking portfolio for IT / DevOps / Technical Support career development.
