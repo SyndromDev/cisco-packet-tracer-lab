@@ -47,27 +47,27 @@ The LAN network is fully operational:
 ---
 
 ## Сетевая топология
-![Топология](screenshots/topology2.png)
+![Топология](lab1-simple-lan/screenshots/topology2.png)
 
 ---
 
 ## Конфигурация маршрутизатора
-![Конфигурация маршрутизатора](screenshots/routerconfig.png)
+![Конфигурация маршрутизатора](lab1-simple-lan/screenshots/routerconfig.png)
 
 ---
 
 ## Конфигурация PC0
-![IP-адрес PC0](screenshots/ipconfigpc0.png)
+![IP-адрес PC0](lab1-simple-lan/screenshots/ip-configpc0.png)
 
 ---
 
 ## Конфигурация PC1
-![IP-адрес PC1](screenshots/ipconfigpc1.png)
+![IP-адрес PC1](lab1-simple-lan/screenshots/ip-configpc1.png)
 
 ---
 
 ## Проверка подключения
-![Результат пинга](screenshots/ping.png)
+![Результат пинга](lab1-simple-lan/screenshots/ping2.png)
 
 ---
 
