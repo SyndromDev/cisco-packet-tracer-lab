@@ -6,31 +6,31 @@
 ---
 
 ## Сетевая топология
-![Топология](lab1-simple-lan/screenshots/topology2.png)
+![Топология](screenshots/topology2.png)
 
 *Рисунок 1: Сетевая топология с двумя локальными сетями, соединенными через маршрутизатор*
 ---
 
 ## Конфигурация маршрутизатора
-![Конфигурация маршрутизатора](lab1-simple-lan/screenshots/routerconfig.png)
+![Конфигурация маршрутизатора](screenshots/routerconfig.png)
 
 *Рисунок 2: Конфигурация интерфейса маршрутизатора с назначенными IP-адресами для обеих сетей*
 ---
 
 ## Конфигурация PC0
-![IP-адрес PC0](lab1-simple-lan/screenshots/ip-configpc0.png)
+![IP-адрес PC0](screenshots/ip-configpc0.png)
 
 *Рисунок 3: IP-конфигурация PC0 в сети 192.168.1.0/24*
 ---
 
 ## Конфигурация PC1
-![IP-адрес PC1](lab1-simple-lan/screenshots/ip-configpc1.png)
+![IP-адрес PC1](screenshots/ip-configpc1.png)
 
 *Рисунок 4: IP-конфигурация ПК1 в сети 192.168.2.0/24*
 ---
 
 ## Проверка подключения
-![Результат пинга](lab1-simple-lan/screenshots/ping2.png)
+![Результат пинга](screenshots/ping2.png)
 
 *Рисунок 5: Успешный ICMP-пинг между PC0 и PC1 в разных сетях*
 ---
