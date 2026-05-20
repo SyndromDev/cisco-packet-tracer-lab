@@ -1,3 +1,5 @@
+# Lab 05 - ACL Security Between VLANs
+
 #  Objective
 This lab demonstrates VLAN segmentation and traffic filtering using Access Control Lists (ACLs) in Cisco Packet Tracer.
 
@@ -32,6 +34,15 @@ This lab demonstrates VLAN segmentation and traffic filtering using Access Contr
 ![Router Config](screenshots/router-config.png)
 
 ---
+##  Traffic Policy
+
+| Source VLAN | Destination VLAN | Action |
+|---|---|---|
+| GUEST | HR | Denied |
+| GUEST | IT | Denied |
+| HR | IT | Allowed |
+| IT | HR | Allowed |
+
 
 ##  Testing Results
 
@@ -49,9 +60,16 @@ GUEST VLAN is blocked from accessing HR and IT VLANs.
 
 ---
 
-## 📌 Key Learnings
+##  Key Learnings
 - VLAN segmentation
 - 802.1Q trunking
 - Router-on-a-stick routing
-- ACL traffic filtering
 - Network security fundamentals
+
+##  Technologies Used
+
+- Cisco Packet Tracer
+- VLANs
+- 802.1Q Trunking
+- Extended ACLs
+- Router-on-a-Stick
