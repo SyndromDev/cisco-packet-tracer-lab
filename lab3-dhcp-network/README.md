@@ -1,77 +1,77 @@
 # Lab 3 - DHCP Network Configuration
 
-## Objective
-Configure a router as a DHCP server to automatically assign IP addresses to devices in two different LAN networks.
+## Цель
+Настроить маршрутизатор в качестве DHCP-сервера для автоматического назначения IP-адресов устройствам в двух разных локальных сетях.
 
----
+--
 
-## Technologies Used
+## Используемые технологии
 - Cisco Packet Tracer
 - DHCP
 - IPv4
-- Router
-- Switch
+- Маршрутизатор
+- Коммутатор
 - ICMP (Ping)
 
 ---
 
-## Network Topology
+## Сетевая топология
 
 ![Topology](screenshots/topology.png)
 
 
-*Figure 1: Network topology with router-based DHCP configuration*
+*Рисунок 1: Топология сети с конфигурацией DHCP на основе маршрутизатора*
 
 ---
 
-## Router DHCP Configuration
+## Настройка DHCP маршрутизатора
 
 ![Router Config](screenshots/router-config.png)
 
 
-*Figure 2: DHCP pools configured on the router for both LAN networks*
+*Рисунок 2: Пулы DHCP, настроенные на маршрутизаторе для обеих локальных сетей*
 
 ---
 
-## PC0 DHCP Configuration
+## Конфигурация DHCP для PC0
 
 ![PC0](screenshots/pc0-ip.png)
 
 
-*Figure 3: PC0 automatically receiving IP configuration from DHCP server*
+*Рисунок 3: ПК0 автоматически получает IP-конфигурацию от DHCP-сервера*
 
 ---
 
-## PC1 DHCP Configuration
+## Конфигурация DHCP для ПК1
 
 ![PC1](screenshots/pc1-ip.png)
 
 
-*Figure 4: PC1 automatically receiving IP configuration from DHCP server*
+*Рисунок 4: ПК1 автоматически получает IP-конфигурацию от DHCP-сервера*
 
 ---
 
-## Connectivity Test
+## Тест подключения
 
 ![Ping](screenshots/ping-test.png)
 
 
-*Figure 5: Successful ICMP communication between hosts in different networks*
+*Рисунок 5: Успешная ICMP-связь между хостами в разных сетях*
 
 ---
 
-## Result
-- Router configured as DHCP server
-- Automatic IP address assignment working correctly
-- Inter-network communication successful
-- DHCP pools successfully distribute gateway and network settings
+## Результат
+- Маршрутизатор настроен как DHCP-сервер
+- Автоматическое назначение IP-адресов работает корректно
+- Межсетевое взаимодействие успешно
+- Пулы DHCP успешно распределяют настройки шлюза и сети
 
 ---
 
-## Skills Demonstrated
-- DHCP configuration
-- Router interface configuration
-- IPv4 addressing
-- Network troubleshooting
-- Inter-network routing
-- Cisco IOS CLI
+## Продемонстрированные навыки
+- Настройка DHCP
+- Настройка интерфейсов маршрутизатора
+- Адресация IPv4
+- Устранение неполадок в сети
+- Межсетевая маршрутизация
+- Интерфейс командной строки Cisco IOS
