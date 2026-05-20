@@ -1,75 +1,79 @@
 # Lab 05 - ACL Security Between VLANs
 
-#  Objective
-This lab demonstrates VLAN segmentation and traffic filtering using Access Control Lists (ACLs) in Cisco Packet Tracer.
+# Цель
+В этой лабораторной работе демонстрируется сегментация VLAN и фильтрация трафика с использованием списков контроля доступа (ACL) в Cisco Packet Tracer.
 
 ---
 
-##  Network Topology
+## Сетевая топология
 
 ![Topology](screenshots/topology.png)
 
 ---
 
-##  VLAN Configuration
+## Настройка VLAN
 
 ![VLAN](screenshots/vlan.png)
 
 ---
 
-##  Trunk Configuration
+## Конфигурация транка
 
 ![Trunk](screenshots/trunk.png)
 
 ---
 
-##  ACL Configuration
+## Настройка ACL
 
 ![ACL](screenshots/acl-config.png)
 
 ---
 
-##  Router Configuration
+## Конфигурация маршрутизатора
 
 ![Router Config](screenshots/router-config.png)
 
 ---
-##  Traffic Policy
+## Политика трафика
 
-| Source VLAN | Destination VLAN | Action |
+| Исходная VLAN | Целевая VLAN | Действие |
+
 |---|---|---|
-| GUEST | HR | Denied |
-| GUEST | IT | Denied |
-| HR | IT | Allowed |
-| IT | HR | Allowed |
 
+| ГОСТЬ | HR | Запрещено |
 
-##  Testing Results
+| ГОСТЬ | IT | Запрещено |
 
-### ✔ Allowed Traffic
-HR ↔ IT communication works successfully.
+| HR | IT | Разрешено |
+
+| IT | HR | Разрешено |
+
+## Результаты тестирования
+
+### ✔ Разрешенный трафик
+Связь между HR и IT работает успешно.
 
 ![Allowed Traffic](screenshots/ping-hr-it.png)
 
 ---
 
-###  Blocked Traffic
-GUEST VLAN is blocked from accessing HR and IT VLANs.
+### Заблокированный трафик
+Гостевая VLAN заблокирована для доступа к VLAN отдела кадров и ИТ.
 
 ![Blocked Traffic](screenshots/ping-guest-blocked.png)
 
 ---
 
-##  Key Learnings
-- VLAN segmentation
-- 802.1Q trunking
-- Router-on-a-stick routing
-- Network security fundamentals
+## Ключевые выводы
+- Сегментация VLAN
+- Транкинг 802.1Q
+- Маршрутизация Router-on-a-Stick
+- Основы сетевой безопасности
 
-##  Technologies Used
+## Используемые технологии
 
 - Cisco Packet Tracer
-- VLANs
-- 802.1Q Trunking
-- Extended ACLs
-- Router-on-a-Stick
+- VLAN
+- Транкинг 802.1Q
+- Расширенные списки контроля доступа (ACL)
+- Маршрутизация Router-on-a-Stick
