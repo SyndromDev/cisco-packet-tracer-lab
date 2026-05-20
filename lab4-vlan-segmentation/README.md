@@ -1,17 +1,17 @@
 # Lab 04 - VLAN Segmentation & Inter-VLAN Routing
 
-##  Objective
-This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on-a-stick topology in Cisco Packet Tracer.
+## Цель
+В этой лабораторной работе демонстрируется сегментация VLAN и маршрутизация между VLAN с использованием топологии «маршрутизатор на одном устройстве» в Cisco Packet Tracer.
 
 ---
 
-##  Network Topology
+## Сетевая топология
 
 ![Topology](screenshots/topology.png)
 
 ---
 
-## VLAN Configuration
+## Настройка VLAN
 ![VLAN](screenshots/vlan-config.png)
 
 | VLAN | Name   | Network         |
@@ -22,69 +22,72 @@ This lab demonstrates VLAN segmentation and inter-VLAN routing using a router-on
 
 ---
 
-##  IP Addressing Plan
+## План IP-адресации
 
-### HR VLAN
+### VLAN для HR
 - 192.168.10.11
 - 192.168.10.12
-- Gateway: 192.168.10.1
+- Шлюз: 192.168.10.1
 
-### IT VLAN
+### VLAN для IT
 - 192.168.20.11
 - 192.168.20.12
-- Gateway: 192.168.20.1
+- Шлюз: 192.168.20.1
 
-### GUEST VLAN
+### VLAN для GUEST
 - 192.168.30.11
 - 192.168.30.12
-- Gateway: 192.168.30.1
+- Шлюз: 192.168.30.1
 
 ---
 
-##  Configuration Summary
-## Switch Config
+## Сводка конфигурации
+## Конфигурация коммутатора
 ![Switch Config](screenshots/config-switch.png)
 
-### Switch
-- VLAN creation (10, 20, 30)
-- Port assignment per VLAN
-- Trunk configuration on Fa0/7
+### Коммутатор
+- Создание VLAN (10, 20, 30)
+- Назначение портов для каждого VLAN
+- Конфигурация транка на Fa0/7
 
-### Router
-- Router-on-a-stick configuration
-- Subinterfaces:
-  - g0/0.10
-  - g0/0.20
-  - g0/0.30
+### Маршрутизатор
+- Конфигурация Router-on-a-stick
+- Субинтерфейсы:
+
+- g0/0.10
+
+- g0/0.20
+
+- g0/0.30
 
 ---
 
-##  Trunk Verification
+## Проверка транка
 
 ![Trunk](screenshots/trunk.png)
 
 ---
 
-##  Testing Results
-## Testing
+## Результаты тестирования
+## Тестирование
 
 ### HR ↔ IT
 ![Ping 1](screenshots/ping1.png)
 
-### GUEST tests
+### Тесты ГОСТЯ
 ![Ping 2](screenshots/ping2.png)
 
 ---
 
-##  Key Learnings
-- VLAN segmentation
-- 802.1Q trunking
-- Inter-VLAN routing (router-on-a-stick)
-- Network isolation and controlled communication
+## Основные выводы
+- Сегментация VLAN
+- Транкинг 802.1Q
+- Маршрутизация между VLAN (маршрутизатор на одном устройстве)
+- Сетевая изоляция и контролируемая связь
 
 ---
 
-##  Files Included
-- Packet Tracer project (.pkt)
-- Switch & Router configurations
-- Screenshots of topology and tests
+## Включенные файлы
+- Проект Packet Tracer (.pkt)
+- Конфигурации коммутаторов и маршрутизаторов
+- Скриншоты топологии и тестов
